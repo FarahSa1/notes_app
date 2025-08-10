@@ -31,15 +31,12 @@ class NoteItem extends StatelessWidget {
                 ),
               ),
             ),
-            trailing: Transform.translate(
-              offset: const Offset(0, -15), //عشان احرك الايقون لفوق 
-              child: IconButton(
-                onPressed: () {},
-                icon: const Icon(
-                  FontAwesomeIcons.trash,
-                  color: Colors.black,
-                  size: 24,
-                ),
+            trailing: IconButton(
+              onPressed: () {},
+              icon: const Icon(
+                FontAwesomeIcons.trash,
+                color: Colors.black,
+                size: 24,
               ),
             ),
           ),
